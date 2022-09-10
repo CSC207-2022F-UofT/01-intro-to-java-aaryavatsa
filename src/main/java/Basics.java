@@ -186,6 +186,7 @@ public class Basics {
         for (int i = 1; i < arr.length; i = i + 2) {
             current_sum = current_sum + arr[i];
         }
+        System.out.println("is this working?");
         return current_sum;
     }
 
