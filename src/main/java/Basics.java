@@ -152,8 +152,8 @@ public class Basics {
 
         String[] parts = to_split.split(" ");
 
-        for (int i = 0; i < 7; i++) {
-            ret.append(parts[i].charAt(0));
+        for (String word: parts) {
+            ret.append(word);
         }
 
         return ret.toString();
@@ -186,6 +186,7 @@ public class Basics {
         for (int i = 1; i < arr.length; i = i + 2) {
             current_sum = current_sum + arr[i];
         }
+
         return current_sum;
     }
 
