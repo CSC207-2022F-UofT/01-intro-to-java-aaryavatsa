@@ -153,7 +153,7 @@ public class Basics {
         String[] parts = to_split.split(" ");
 
         for (String word: parts) {
-            ret.append(word);
+            ret.append(word.charAt(0));
         }
 
         return ret.toString();
